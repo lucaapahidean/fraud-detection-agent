@@ -13,7 +13,7 @@ An intelligent fraud detection system powered by OpenAI Agents SDK, scikit-learn
 
 ## 📸 Screenshots
 
-### 🤖 AI Chat Assistant
+### AI Chat Assistant
 The intelligent agent answers questions about fraud detection, makes predictions, and explains model decisions.
 
 ![Chat Interface - Single Prediction](assets/chat_single_prediction.png)
@@ -28,17 +28,17 @@ The intelligent agent answers questions about fraud detection, makes predictions
 ![Chat Interface - Risk Explanation](assets/chat_risk_explanation.png)
 *Detailed explanation of risk factors for high-risk profiles*
 
-### 📊 Dataset Explorer
+### Dataset Explorer
 Explore the 1M+ bank account applications with rich statistical insights.
 
 ![Dataset Explorer](assets/dataset_explorer.png)
 
-### 📈 Model Performance
+### Model Performance
 Comprehensive performance metrics for all trained models.
 
 ![Model Performance](assets/model_performance.png)
 
-### 🔍 Quick Predict
+### Quick Predict
 Instant fraud predictions with a slider interface.
 
 ![Quick Predict](assets/quick_predict.png)
