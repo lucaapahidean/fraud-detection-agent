@@ -53,6 +53,19 @@ Instant fraud predictions with a slider interface.
 
 1. **Clone/create the project**
 
+2. **Download the BAF dataset**
+```bash
+curl -L -o data/archive.zip \
+  https://www.kaggle.com/api/v1/datasets/download/sgpjesus/bank-account-fraud-dataset-neurips-2022
+```
+
+> **Note:** This downloads ~500MB of data. The zip file will be automatically extracted when you first load the dataset in the app.
+
+**Alternative:** If the curl command doesn't work, you can:
+- Visit [Kaggle Dataset Page](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022)
+- Download manually
+- Move the zip file to `data/archive.zip`
+
 2. **Create virtual environment**:
 ```bash
 python -m venv .venv
@@ -107,6 +120,8 @@ The Bank Account Fraud (BAF) suite contains 6 datasets:
 - **Variants I-V**: Different types of bias (group size, prevalence, separability)
 
 Each dataset contains 1M synthetic bank account applications with 30 features.
+
+More information about the dataset can be found in the [BAF Dataset Suite Datasheet](https://github.com/feedzai/bank-account-fraud/blob/main/documents/datasheet.pdf)
 
 ## Models
 
